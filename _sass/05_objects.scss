@@ -1,0 +1,8 @@
+// Class-based selectors which define undecorated design patterns, for example media object known from OOCSS
+
+.content-wrap {
+  padding: 10px;
+  @include media($small) {
+    @include outer-container($site-width);
+  }
+}
