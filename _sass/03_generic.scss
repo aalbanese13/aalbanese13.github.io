@@ -10,9 +10,14 @@
 body {
   font-family: $base-font-family;
   margin: 0;
-  padding: 0;
+  padding: 10%;
 }
 
 a {
   color: $red;
+}
+
+.bold {
+  font-weight: bold;
+
 }
