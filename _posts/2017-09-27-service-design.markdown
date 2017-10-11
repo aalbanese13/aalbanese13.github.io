@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Service Design"
+title:  "What is Service Design and Why Should You Care?"
 date:   2017-09-27 01:18:32 -0500
 categories: jekyll update
 ---
-
-<h3>What is Service Design and Why Should You Care?</h3>
 
 <p>Service design is an important pillar of design that you probably never think about. It’s the reason why when you call a service provider, your call is picked up quickly or you end up listening to god awful hold music until you want to gouge your eyes out.</p>
 

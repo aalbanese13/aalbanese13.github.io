@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Sep 2017 14:04:36 -0500</pubDate>
-    <lastBuildDate>Fri, 29 Sep 2017 14:04:36 -0500</lastBuildDate>
+    <pubDate>Wed, 11 Oct 2017 16:45:32 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Oct 2017 16:45:32 -0500</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -87,10 +87,8 @@
       </item>
     
       <item>
-        <title>Service Design</title>
-        <description>&lt;h3&gt;What is Service Design and Why Should You Care?&lt;/h3&gt;
-
-&lt;p&gt;Service design is an important pillar of design that you probably never think about. It’s the reason why when you call a service provider, your call is picked up quickly or you end up listening to god awful hold music until you want to gouge your eyes out.&lt;/p&gt;
+        <title>What is Service Design and Why Should You Care?</title>
+        <description>&lt;p&gt;Service design is an important pillar of design that you probably never think about. It’s the reason why when you call a service provider, your call is picked up quickly or you end up listening to god awful hold music until you want to gouge your eyes out.&lt;/p&gt;
 
 &lt;p&gt;Service design at its highest level, is the &lt;span class=&quot;bold&quot;&gt;design of a customer experience&lt;/span&gt;. An effective service design is the creation and implementation of a well thought out plan of experiences through both tangible and intangible channels over time.&lt;/p&gt;
 
