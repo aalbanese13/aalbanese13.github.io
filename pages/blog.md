@@ -3,18 +3,16 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-
-
 <ul class="blog-list">
 {% for post in site.posts %}
-  <li>
-      <h3>{{ post.title }}</h3>
+  <li class="blog-item">
+      <h2 class="post-title">{{ post.title }}</h2>
 
-      <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
+      <h5 class="post-date">{{ post.date | date: "%b %-d, %Y" }}</h5>
 
-      <p>{{ post.excerpt }}</p>
+      <p class="post-excerpt">{{ post.excerpt }}</p>
 
-      <a href="{{ post.url }}">
+      <a class="read-more" href="{{ post.url }}">
       Read More
       </a>
   </li>

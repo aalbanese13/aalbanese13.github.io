@@ -1,16 +1,10 @@
 html, body {
+  color: #3A4546;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   height: 100%;
   margin: 0;
-  padding: 0;
-  font-family: 'Montserrat';
-  font-weight: lighter; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat';
-  font-weight: normal; }
-
-header {
-  background: #ededed; }
+  padding: 0; }
 
 .container-wide {
   margin: 0 auto;
@@ -20,6 +14,40 @@ header {
 
 .container-wide-home {
   padding-top: 8%; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3891A6;
+  font-family: 'Playfair Display';
+  font-weight: bold; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  color: #F16481;
+  font-size: 20px;
+  margin: 2% 0 2% 0; }
+
+a:link {
+  color: #F16481; }
+
+a:visited {
+  color: #3891A6; }
+
+a:hover {
+  color: #F6BD60; }
+
+a:active {
+  color: #F6BD60; }
 
 .logo, .header-navigation, .navigation-item {
   display: inline-block; }
@@ -32,7 +60,7 @@ header {
   padding: 1em; }
 
 .home-photo {
-  height: 250px;
+  height: 300px;
   float: left;
   padding-left: 10%;
   padding-top: 1%; }
@@ -42,9 +70,37 @@ header {
   padding-left: 35%;
   max-width: 600px; }
 
+.home-title, .home-sub {
+  margin: 0; }
+
+.home-message {
+  padding-top: 2%;
+  padding-bottom: 2%; }
+
 .home-social .blog-list {
   list-style-type: none; }
 
 .home-social-item {
   display: inline;
   padding-right: 3%; }
+
+.linkedin, .instagram {
+  height: 30px; }
+
+.blog-list {
+  list-style-type: none;
+  padding-left: 0; }
+
+.blog-item {
+  padding: 0 0 8% 0; }
+
+.post {
+  padding-left: 30%;
+  padding-right: 10%; }
+
+.site-footer {
+  color: #818889;
+  font-size: 14px; }
+
+.post-title {
+  margin-bottom: 0; }
