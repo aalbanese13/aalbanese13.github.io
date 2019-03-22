@@ -1,0 +1,22 @@
+.c-blog-post-list {
+  @include no-bullet;
+}
+
+.c-blog-post-list__post {
+  margin-bottom: $spacing-small;
+  a {
+    border-bottom: 1px solid $color-border-dark;
+    display: block;
+    padding-bottom: $spacing-small;
+    text-decoration: none;
+    transition: all $duration-quickly  ease-in;
+    &:hover {
+      background-color: $color-off-white;
+      box-shadow: 0px 0px 0px $spacing-xx-small $color-off-white;
+    }
+  }
+}
+
+.c-blog-post-list__post--title {
+  display: inline-block;
+}

@@ -1,0 +1,23 @@
+<div class="module__primary-secondary">
+  <div class="content">
+    <section class="panel primary">
+      <h2>Project Mercury</h2>
+      <p>This is a rough bootstrap I use to get a simple, close to static project up and running. This setup can be applied to any codebase without much changes at all. The big question is why?</p>
+      <p>I wanted an extremely slim baseline with my preferred grid system setup, along with a small smattering of styling, other than that, thats it. Close to bare metal as possible.</p>
+      <h3>Content Agnostic CSS</h3>
+      <p>For the love of all that is good and holy, DO NOT write CSS classes based on the content. Inevitably when you do that you'll need to use it elsewhere with different content, which means either you dupe the code and rename, or refactor for a re-usable content-agnostic naming convention. Do it right the first time.</p>
+      <h3>Simple Grid</h3>
+      <p>If I see a class <code>column one-third</code> I get angry. That might make sense on the desktop, but probably not on a tablet, or definitely not on your phone. It makes things confusing and syntactically incorrect. By approaching the build with an approach of modules and facets we can write cleaner CSS without worrying about floating or clearfixes, no ugly code, and it makes sense on all screen sizes.</p>
+
+    </section>
+    <section class="panel secondary">
+      <h3>Assets</h3>
+      <ul class="list__simple">
+        <li><a href="https://jekyllrb.com/" target="blank">Jekyll</a></li>
+        <li><a href="http://bourbon.io/" target="blank">Bourbon</a></li>
+        <li><a href="http://neat.bourbon.io/" target="blank">Neat</a></li>
+        <li><a href="https://developers.google.com/speed/libraries/#jquery" target="blank">JQuery (Google Hosted)</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
